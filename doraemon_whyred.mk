@@ -31,7 +31,7 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Inherit some commonDoraemonOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
+# TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/doraemon/config/common_full_phone.mk)
 
 PRODUCT_NAME := doraemon_whyred
